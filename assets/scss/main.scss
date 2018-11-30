@@ -1,0 +1,112 @@
+$texticon:#a0853f;
+$primary:#0c3c5a;
+$secondary: #18334f;
+$sectionbg:#ffffff;
+
+
+body,html {
+  background-color:$primary;
+  color:$texticon;
+  }
+
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  header{
+    display:flex;
+    flex-direction: row-reverse;
+    background-color: $primary;
+  }
+
+    h1{
+      text-align: center;
+      padding-left:10%;
+      color:$texticon;
+    }
+
+    h2{
+      padding: 10px 0px 10px 0px;
+      text-align: center;
+      text-decoration: none;
+      background-color: $secondary;
+      border-bottom: 1px solid $texticon;
+      border-top:1px solid $texticon;
+    }
+  
+    h3{
+      padding-left:20%;
+      background: $texticon;
+      color: $secondary;
+      border-bottom: 5px solid $secondary;
+      font-size:3vh;
+    }
+  
+    p{
+      width:15%;
+      text-align: center;
+    }
+
+    table{
+      padding-top:2%;
+      background-color: $secondary;
+      margin:auto;
+      td, th{
+        font-size: 18px;
+      }
+    }
+  
+    th{
+      background-color: $secondary;
+    }
+  
+ 
+
+    .navbar{
+      display: flex;
+      color:$texticon;
+      a{
+        text-decoration: none;
+        padding-right:5%;
+      }
+    } 
+    
+    .fa-facebook, .fa-instagram{
+      font-size: 4vh;
+      align-content: center;
+      background-color: $primary;
+      color: $texticon;
+      
+    }
+    .container{
+      margin:auto;
+    }
+
+
+
+  .moviecard{
+    display: flex;
+    justify-content: center;
+    background-color: $secondary;
+    padding:5px 0 5px;
+  }
+
+  .moviecard1{
+    display: flex;
+    justify-content: center;
+    background-color: $secondary;
+    padding-top:2%;
+  }
+
+  .containernewmovie{
+    border-top: 1px solid $texticon;
+    background-color: $secondary;
+  }
+
+  .footnav{
+    color:$texticon;
+    a{
+      text-decoration: none;
+      color: $texticon;
+    }
+  }
